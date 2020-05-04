@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel reading Device</title>
+    <script src="handle.js"></script>
+    <script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div id="option1">
+        <input type="file" id="file-upload" name="upload" >
+        <input type="button" id="up" value="Upload" onclick="fun()">&nbsp;&nbsp;
+        <input type="button" id="Print" value="Print" onclick="printing()"><br/>
+    <hr/><br/>
+    </div>
+    <div id="list"></div>
+     
+    <div id="show"></div>
+
+</body>
+</html>
